@@ -1,0 +1,23 @@
+<CredentialIssueSpecification>
+	<Name>Thalia member type</Name>
+	<IssuerID>Thalia</IssuerID>
+
+	<Id>1338</Id>
+
+	<Expires>{{ days_to_sept_1 }}</Expires>
+
+	<Attributes>
+		<Attribute type="string">
+			<Name>isMember</Name>
+			<Value>{{ is_member }}</Value>
+		</Attribute>
+		<Attribute type="string">
+			<Name>isBegunstiger</Name>
+			<Value>{{ is_begunstiger }}</Value>
+		</Attribute>
+		<Attribute type="string">
+			<Name>isHonoraryMember</Name>
+			<Value>{{ is_honorary_member }}</Value>
+		</Attribute>
+	</Attributes>
+</CredentialIssueSpecification>

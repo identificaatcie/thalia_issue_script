@@ -1,0 +1,25 @@
+<SilviaIssuingScript>
+	<Description>Thalia issue script</Description>
+
+	<UserPIN>{{ pin_code }}</UserPIN>
+
+	<Credentials>
+		<Credential>
+			<IssueSpecification>age-cred.xml</IssueSpecification>
+			<IssuerPublicKey>../ipk.xml</IssuerPublicKey>
+			<IssuerPrivateKey>../isk.xml</IssuerPrivateKey>
+		</Credential>
+
+		<Credential>
+			<IssueSpecification>member-cred.xml</IssueSpecification>
+			<IssuerPublicKey>../ipk.xml</IssuerPublicKey>
+			<IssuerPrivateKey>../isk.xml</IssuerPrivateKey>
+		</Credential>
+
+		<Credential>
+			<IssueSpecification>root-cred.xml</IssueSpecification>
+			<IssuerPublicKey>../ipk.xml</IssuerPublicKey>
+			<IssuerPrivateKey>../isk.xml</IssuerPrivateKey>
+		</Credential>
+	</Credentials>
+</SilviaIssuingScript>
